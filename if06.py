@@ -21,14 +21,14 @@ def main(a,b,c):
     if c<0:
         z=z+1
     s=0
-    if a>0:
+    if a>=0:
         s=s+1
-    if b>0:
+    if b>=0:
         s=s+1
-    if c>0:
+    if c>=0:
         s=s+1
     if z>s: 
         return "there are a lot of negative numbers"
     if z<s:
         return "there are a lot of positive numbers"
-print(main(2,3,-5))
+print(main(0,0,-5))
