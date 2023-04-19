@@ -7,5 +7,13 @@ def main(a,b,c):
         c: integer
     returns:
         integer: the number of negative numbers in the given numbers
-    """
-    return
+    """  
+    s=0
+    if a<0:
+        s=s+1
+    if b<0:
+        s=s+1
+    if c<0:
+        s=s+1
+    return s
+print(main(1,-1,11))
